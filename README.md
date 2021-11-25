@@ -1,8 +1,6 @@
 # Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation
 
 [[paper]][0]
-[[video]][1]
-
 
 This repository contains the official implementation for [Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation][0].
 We propose a better permutation-equivariance property for multisets and improve an existing set predictor that has this property with approximate implicit differentiation.
@@ -24,9 +22,9 @@ pip install pytorch-lightning matplotlib scipy ray pandas wandb
 ## Reproducibility
 ### Pre-trained models
 We make the [Weights & Biases][3] (wandb) tables containing all the training runs in the paper publicly available:
-- [Class-specific numbering, section 4.1][4]
-- [Random sets autoencoding, section 4.2][5]
-- [CLEVR object property prediction, section 4.3][6]
+- Class-specific numbering: [Section 4.1 and Appendix E.1][4]
+- Random sets autoencoding: [Section 4.2][5], [Appendix E.2][6]
+- CLEVR object property prediction: [Section 4.3][7], [Appendix E.3][8]
 
 You can look at the training curves for every run and download the corresponding model checkpoint to inspect the fully-trained weights.
 The weights for some experiments maybe cannot be loaded by the corresponding training script due to some refactoring we did afterwards.
@@ -70,17 +68,18 @@ In the `analysis` directory, you can find the scripts used to produce the result
     zhang2022multisetequivariant,
     title={Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation},
     author={Zhang, Yan and Zhang, David W and Lacoste-Julien, Simon and Burghouts, Gertjan J and Snoek, Cees GM},
-    journal={TBD},
+    journal={arXiv preprint arXiv:2111.12193},
     year={2022},
-    url={TBD}
+    url={https://arxiv.org/abs/2111.12193}
 }
 ```
 
 
-[0]: TBD
-[1]: TBD
+[0]: https://arxiv.org/abs/2111.12193
 [2]: https://pytorch.org/get-started/locally/
 [3]: https://wandb.ai/
-[4]: https://wandb.ai/wdz/log_numbering
-[5]: https://wandb.ai/TBD
-[6]: https://wandb.ai/TBD
+[4]: https://wandb.ai/wdz/log_numbering?workspace=user-wdz
+[5]: https://wandb.ai/cyanogenoid/multiset-equivariance-random-sets?workspace=user-cyanogenoid
+[6]: https://wandb.ai/cyanogenoid/multiset-equivariance-random-sets-extra?workspace=user-cyanogenoid
+[7]: https://wandb.ai/cyanogenoid/multiset-equivariance-clevr?workspace=user-cyanogenoid
+[8]: https://wandb.ai/cyanogenoid/multiset-equivariance-clevr-extra?workspace=user-cyanogenoid
