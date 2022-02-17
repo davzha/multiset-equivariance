@@ -64,13 +64,13 @@ In the `analysis` directory, you can find the scripts used to produce the result
 
 ## BibTeX
 ```
-@article{
+@inproceedings{
     zhang2022multisetequivariant,
     title={Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation},
     author={Zhang, Yan and Zhang, David W and Lacoste-Julien, Simon and Burghouts, Gertjan J and Snoek, Cees GM},
-    journal={arXiv preprint arXiv:2111.12193},
-    year={2021},
-    url={https://arxiv.org/abs/2111.12193}
+    booktitle={International Conference on Learning Representations},
+    year={2022},
+    url={https://openreview.net/forum?id=5K7RRqZEjoS}
 }
 ```
 
