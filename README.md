@@ -1,6 +1,6 @@
 # Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation
 
-[[paper]][0]
+[[paper]][0] [[video]][1]
 
 This repository contains the official implementation for [Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation][0].
 We propose a better permutation-equivariance property for multisets and improve an existing set predictor that has this property with approximate implicit differentiation.
@@ -76,6 +76,7 @@ In the `analysis` directory, you can find the scripts used to produce the result
 
 
 [0]: https://arxiv.org/abs/2111.12193
+[1]: https://www.youtube.com/watch?v=2iGmXmjaQus
 [2]: https://pytorch.org/get-started/locally/
 [3]: https://wandb.ai/
 [4]: https://wandb.ai/wdz/log_numbering?workspace=user-wdz
