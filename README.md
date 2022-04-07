@@ -84,4 +84,4 @@ In the `analysis` directory, you can find the scripts used to produce the result
 [6]: https://wandb.ai/cyanogenoid/multiset-equivariance-random-sets-extra?workspace=user-cyanogenoid
 [7]: https://wandb.ai/cyanogenoid/multiset-equivariance-clevr?workspace=user-cyanogenoid
 [8]: https://wandb.ai/cyanogenoid/multiset-equivariance-clevr-extra?workspace=user-cyanogenoid
-[9]: https://github.com/davzha/multiset-equivariance/multiset_equivariance_poster.png?raw=True
+[9]: https://raw.githubusercontent.com/davzha/multiset-equivariance/main/multiset_equivariance_poster.png
