@@ -1,6 +1,6 @@
 # Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation
 
-[[paper]][0] [[video]][1]
+[[paper]][0] [[video]][1] [[poster]][9]
 
 This repository contains the official implementation for [Multiset-Equivariant Set Prediction with Approximate Implicit Differentiation][0].
 We propose a better permutation-equivariance property for multisets and improve an existing set predictor that has this property with approximate implicit differentiation.
@@ -84,3 +84,4 @@ In the `analysis` directory, you can find the scripts used to produce the result
 [6]: https://wandb.ai/cyanogenoid/multiset-equivariance-random-sets-extra?workspace=user-cyanogenoid
 [7]: https://wandb.ai/cyanogenoid/multiset-equivariance-clevr?workspace=user-cyanogenoid
 [8]: https://wandb.ai/cyanogenoid/multiset-equivariance-clevr-extra?workspace=user-cyanogenoid
+[9]: https://github.com/davzha/multiset-equivariance/multiset_equivariance_poster.png?raw=True
